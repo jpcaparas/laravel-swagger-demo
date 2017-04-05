@@ -2,6 +2,10 @@
 
 This demonistrates how to integrate Swagger into a Laravel project.
 
+## Resources
+- [Swagger annotation reference](https://gist.github.com/nostah/d610459d50564c729c56)
+- [Doctrine Annotations reference](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/annotations-reference.html)
+
 ## TODO
 
 ### Sections
