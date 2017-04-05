@@ -2,12 +2,13 @@
 
 This demonistrates how to integrate [Swagger](http://swagger.io/) into a Laravel project.
 
-## :open_mouth: What is Swagger?
+## :question: What is Swagger and why use it?
 
 According [to their own blog post](http://swagger.io/getting-started-with-swagger-i-what-is-swagger/):
 
-[...]
 > Swagger is a set of rules (in other words, a specification) for a format **describing REST APIs**. The format is both machine-readable **and human-readable**. As a result, it can be used to **share documentation** among **product managers, testers and developers**, but can also be used by various tools to automate API-related processes.
+
+It has been an ongoing constraint for API developers to communicate (let alone present) the features of an API-driven product to **internal & external stakeholders** (who most of the time **don't even know what APIs are**). Swagger provides a breathable interface where users of various disciplines, whether it be front-end, back-end, business development, and all those in between, can easily understand (and test) the features of an API-driven product through an **intuitive web interface**.
 
 ## :books: Resources
 - [Swagger annotation reference](https://gist.github.com/nostah/d610459d50564c729c56)
@@ -16,7 +17,7 @@ According [to their own blog post](http://swagger.io/getting-started-with-swagge
 ## :sweat_drops: TODO
 
 ### Sections
-- [ ] Why use Swagger?
+- [x] What is Swagger and why use it?
 - [ ] Difference between generating Swagger docs on Laravel & Symfony.
 - [ ] Good annotation practices.
 - [ ] Where to place annotations.
