@@ -22,6 +22,7 @@ It has been an ongoing constraint for API developers to communicate (let alone p
 - [ ] Good annotation practices.
 - [ ] Where to place annotations.
 - [ ] A working demo (deployed thru either Beanstalk or Forge).
+- [ ] Examples of well-thought Swagger docs.
 
 ### Technical
 - [ ] Annotation proper.
