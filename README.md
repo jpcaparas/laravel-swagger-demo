@@ -13,6 +13,7 @@ It has been an ongoing constraint for API developers to communicate (let alone p
 ## :books: Resources
 - [Swagger annotation reference](https://gist.github.com/nostah/d610459d50564c729c56)
 - [Doctrine Annotations reference](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/annotations-reference.html)
+- [DarkaOnLine/L5-Swagger - Laravel package for integrating Swagger](https://github.com/DarkaOnLine/L5-Swagger)
 
 ## :sweat_drops: TODO
 
