@@ -1,51 +1,32 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# Laravel Swagger Demo
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+This demonistrates how to integrate [Swagger](http://swagger.io/) into a Laravel project.
 
-## About Laravel
+## :question: What is Swagger and why use it?
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+According [to their own blog post](http://swagger.io/getting-started-with-swagger-i-what-is-swagger/):
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+> Swagger is a set of rules (in other words, a specification) for a format **describing REST APIs**. The format is both machine-readable **and human-readable**. As a result, it can be used to **share documentation** among **product managers, testers and developers**, but can also be used by various tools to automate API-related processes.
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+It has been an ongoing constraint for API developers to communicate (let alone present) the features of an API-driven product to **internal & external stakeholders** (who most of the time **don't even know what APIs are**). Swagger provides a **intuitive web interface** where users of various disciplines, whether it be front-end, back-end, business development, and all those in between, can easily understand (and test) the features of an API-driven product.
 
-## Learning Laravel
+## :books: Resources
+- [Swagger annotation reference](https://gist.github.com/nostah/d610459d50564c729c56)
+- [Doctrine Annotations reference](http://docs.doctrine-project.org/projects/doctrine-orm/en/latest/reference/annotations-reference.html)
+- [DarkaOnLine/L5-Swagger - Laravel package for integrating Swagger](https://github.com/DarkaOnLine/L5-Swagger)
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+## :sweat_drops: TODO
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+### Sections
+- [x] What is Swagger and why use it?
+- [ ] Difference between generating Swagger docs on Laravel & Symfony.
+- [ ] Good annotation practices.
+- [ ] Where to place annotations.
+- [ ] A working demo (deployed thru either Beanstalk or Forge).
+- [ ] Examples of well-thought Swagger docs.
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for helping fund on-going Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](http://patreon.com/taylorotwell):
-
-- **[Vehikl](http://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Styde](https://styde.net)**
-- **[Codecourse](https://www.codecourse.com)**
-- [Fragrantica](https://www.fragrantica.com)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+### Technical
+- [ ] Annotation proper.
+- [ ] Artisan commands.
+- [ ] Laravel passport.
+- [ ] A working demo (deployed thru either Beanstalk or Forge).
