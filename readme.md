@@ -22,9 +22,9 @@ On this project, annotations have been segmented on these paths:
 
 | Type | Location |
 | --- | --- |
-| Metadata | `app/Http/Controllers/Api/Controller.php` |
-| Paths | `app/Http/Controllers/Api/**/*` |
-| Definitions | `app/Models/**/*` |
+| Metadata | [`app/Http/Controllers/Api/Controller.php`](app/Http/Controllers/Api/Controller.php) |
+| Paths | [`app/Http/Controllers/Api/**/*`](app/Http/Controllers/Api) |
+| Definitions | [`app/Models/**/*`](app/Models) |
 
 2. **Why not just put all the annotations/definitions on a single file?**  
 While that is possible, some developers (myself included) prefer "spreading out" annotations to where they semantically belong. It also makes more sense to spread out the annotations when working with team members. For this project, I added `path` annotations on top of _controller_ files (some put theirs on route files) and `definition` annotations on _model_ files. Running `php artisan l5-swagger:generate` then scans the entire application directory for annotations and generates an `api-docs.json` out of it.
