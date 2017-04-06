@@ -6,9 +6,8 @@ use App\Http\Controllers\Controller as BaseController;
 
 /**
  * @SWG\Swagger(
- *     host="swagger.test.jpcaparas.com",
  *     basePath="/api",
- *     schemes={"https"},
+ *     schemes={"http", "https"},
  *     produces={"application/json"},
  *     consumes={"application/json"},
  *          @SWG\Info(

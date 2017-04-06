@@ -22,3 +22,14 @@ $factory->define(App\Models\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(App\Models\Employee::class, function (Faker\Generator $faker) {
+    return [
+        'first_name' => $faker->firstName,
+        'last_name' => $faker->lastName,
+        'employer' => $faker->company,
+        'started_at' => $faker->dateTimeBetween('-10 years', '-6 months'),
+        'stopped_at' => $faker->dateTimeBetween('-5 months', 'now')
+    ];
+});
