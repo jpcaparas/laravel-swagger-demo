@@ -14,8 +14,8 @@ use App\Http\Controllers\Controller as BaseController;
  *          @SWG\Info(
  *              title="Laravel Swagger Demo",
  *              version="1.0",
- *              description="Swagger creates human-readable documentation for your APIs",
- *              @SWG\Contact(name="jp@jpcaparas.com"),
+ *              description="Swagger creates human-readable documentation for your API's.",
+ *              @SWG\Contact(name="JP Caparas",email="jp@pixelfusion.co.nz"),
  *              @SWG\License(name="Unlicense")
  *          ),
  *          @SWG\Definition(

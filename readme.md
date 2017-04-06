@@ -1,6 +1,6 @@
 # Laravel Swagger Demo
 
-This demonistrates how to integrate [Swagger](http://swagger.io/) into a Laravel project.
+This project shows how [Swagger](http://swagger.io/) can be integrated into a Laravel project. This demonstration is part of the ongoing engineering talks over at [Pixel Fusion](https://pixelfusion.co.nz), a digital strategy and product development studio based in Auckland, New Zealand.
 
 **[DEMO HERE](http://swagger.test.jpcaparas.com)**
 
@@ -22,7 +22,7 @@ It has been an ongoing constraint for API developers to communicate (let alone p
 ### Sections
 - [x] What is Swagger and why use it?
 - [ ] Difference between generating Swagger docs on Laravel & Symfony.
-- [ ] Good annotation practices.
+- [ ] Good annotation practices (e.g. where to put them, how they are read).
 - [ ] Where to place annotations.
 - [ ] A working demo (deployed thru either Beanstalk or Forge).
 - [ ] Examples of well-thought Swagger docs.
