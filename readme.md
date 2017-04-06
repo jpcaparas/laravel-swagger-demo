@@ -15,7 +15,7 @@ It has been an ongoing constraint for API developers to communicate (let alone p
 
 ## Frequently asked questions
 
-1. **How do you generate docs?**
+1. **How do you generate docs?**  
 Firstly, you need to create annotations that Swagger can parse and turn into an `api-docs.json` file after running the `php artisan l5-swagger:generate` command. [This gist](https://gist.github.com/nostah/d610459d50564c729c56) provides some good examples of Swagger annotations. This is particularly useful for those just scratching the surface of how Doctrine annotations are written.
 
 On this project, annotations have been segmented on these paths:
