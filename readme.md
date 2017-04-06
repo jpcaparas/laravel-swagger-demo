@@ -36,7 +36,7 @@ Swagger is used primarily for documenting API endpoints, **not** testing them. F
 Definitely! You can write a theme from scratch or, like most people, try and test free templates [like these](https://github.com/ostranme/swagger-ui-themes).
 
 5. **When I update an annotation, how do I generate new docs**  
-You'll need to run `l5-swagger:generate` in order to generate a fresh `api-json.doc`. Additionally, we recommend generating a configuration file with `l5-swagger:publish-config` so you have more control over the package.
+You'll need to run `l5-swagger:generate` in order to generate a fresh `api-docs.json`. Additionally, we recommend generating a configuration file with `l5-swagger:publish-config` so you have more control over the package.
 
 ## :books: Resources
 - [Swagger Pet Store API docs demo](http://petstore.swagger.io/)
