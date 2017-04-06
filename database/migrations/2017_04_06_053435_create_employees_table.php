@@ -18,7 +18,7 @@ class CreateEmployeesTable extends Migration
             $table->string('first_name');
             $table->string('last_name');
             $table->string('employer');
-            $table->timestamp('started_at');
+            $table->timestamp('started_at')->nullable();
             $table->timestamp('stopped_at')->nullable();
             $table->timestamps();
         });
