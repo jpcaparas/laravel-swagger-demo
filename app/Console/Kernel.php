@@ -24,8 +24,9 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        // $schedule->command('inspire')
-        //          ->hourly();
+        // Rollback and seed the database every hour
+        $schedule->command('migrate:refresh --seed')
+                 ->hourly();
     }
 
     /**
