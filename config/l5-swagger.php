@@ -240,7 +240,8 @@ return [
     |--------------------------------------------------------------------------
      */
     'constants' => [
-        //'L5_SWAGGER_CONST_HOST' => env('L5_SWAGGER_CONST_HOST', 'http://my-default-host.com'),
+        'API_HOST' => env('API_HOST', 'localhost'),
+        'API_SCHEMES' => explode(',', env('API_SCHEMES', 'http,https'))
     ],
 
 ];
