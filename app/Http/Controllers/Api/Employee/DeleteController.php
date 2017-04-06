@@ -36,12 +36,12 @@ class DeleteController extends Controller
 {
     /**
      * Function that automatically triggers when controller is referenced.
-     * @param DeleteRequest $request
+     * @param int $employee Employee ID
      * @return JsonResponse
      */
-    public function __invoke(DeleteRequest $request)
+    public function __invoke($employee)
     {
-        $employee = Employee::findOrFail($request->get('id'));
+        $employee = Employee::findOrFail($employee);
 
         $employee->delete();
 
