@@ -2,6 +2,8 @@
 
 This demonistrates how to integrate [Swagger](http://swagger.io/) into a Laravel project.
 
+**[DEMO HERE](http://swagger.test.jpcaparas.com)**
+
 ## :question: What is Swagger and why use it?
 
 According [to their own blog post](http://swagger.io/getting-started-with-swagger-i-what-is-swagger/):
