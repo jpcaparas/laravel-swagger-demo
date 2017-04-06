@@ -30,3 +30,6 @@ It has been an ongoing constraint for API developers to communicate (let alone p
 - [ ] Artisan commands.
 - [ ] Laravel passport.
 - [ ] A working demo (deployed thru either Beanstalk or Forge).
+
+## :alien: Technical notes
+- [Laravel Passport](https://laravel.com/docs/5.4/passport), which gives the framework the ability to act as an OAuth2 server, is already [installed and configured](https://github.com/jpcaparas/laravel-passport-demo) on this installation.
