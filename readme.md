@@ -2,6 +2,8 @@
 
 This demonistrates how to integrate [Swagger](http://swagger.io/) into a Laravel project.
 
+**[DEMO HERE](http://swagger.test.jpcaparas.com)**
+
 ## :question: What is Swagger and why use it?
 
 According [to their own blog post](http://swagger.io/getting-started-with-swagger-i-what-is-swagger/):
@@ -28,8 +30,8 @@ It has been an ongoing constraint for API developers to communicate (let alone p
 ### Technical
 - [ ] Annotation proper.
 - [ ] Artisan commands.
-- [ ] Laravel passport.
+- ~~[ ] Laravel passport.~~
 - [ ] A working demo (deployed thru either Beanstalk or Forge).
 
 ## :alien: Technical notes
-- [Laravel Passport](https://laravel.com/docs/5.4/passport), which gives the framework the ability to act as an OAuth2 server, is already [installed and configured](https://github.com/jpcaparas/laravel-passport-demo) on this installation.
+- ~~[Laravel Passport](https://laravel.com/docs/5.4/passport), which gives the framework the ability to act as an OAuth2 server, is already [installed and configured](https://github.com/jpcaparas/laravel-passport-demo) on this installation.~~ Actually, due to time constraints, I'll go with publicly accessible endpoints for the meantime.
