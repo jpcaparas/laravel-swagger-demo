@@ -27,16 +27,16 @@ On this project, annotations have been segmented on these paths:
 | Definitions | [`app/Models/**/*`](app/Models) |
 
 2. **Why not just put all the annotations/definitions on a single file?**  
-While that is possible, some developers (myself included) prefer "spreading out" annotations to where they semantically belong. It also makes more sense to spread out the annotations when working with team members. For this project, I added `path` annotations on top of _controller_ files (some put theirs on route files) and `definition` annotations on _model_ files. Running `php artisan l5-swagger:generate` then scans the entire application directory for annotations and generates an `api-docs.json` out of it.
+While that is possible, some developers (myself included) prefer "spreading out" annotations to where they semantically belong. It also makes more sense to spread out the annotations when working with team members. For this project, I added `path` annotations on top of _controller_ files (some put theirs on route files) and `definition` annotations on _model_ files. Running `php artisan l5-swagger:generate` then scans the entire application directory for annotations and generates an `api-docs.json` file, where all API definitions and paths are placed.
 
 3. **Is Swagger enough to test APIs if they work?**  
-Swagger is used primarily for documenting API endpoints, **not** testing them. For that, you'll need to write integration tests through tools like [Behat](http://behat.org/en/latest/) or [Codeception](http://codeception.com/).
+Swagger is used primarily for documenting API endpoints, **not** testing them. For that, you'll need to write [integration tests](https://en.wikipedia.org/wiki/API_testing) through tools like [Behat](http://behat.org/en/latest/) or [Codeception](http://codeception.com/).
 
 4. **I don't like the default theme, can I customise it?**  
 Definitely! You can write a theme from scratch or, like most people, try and test free templates [like these](https://github.com/ostranme/swagger-ui-themes).
 
 5. **When I update an annotation, how do I generate new docs**  
-You'll need to run `l5-swagger:generate` in order to generate a fresh `api-docs.json`. Additionally, we recommend generating a configuration file with `l5-swagger:publish-config` so you have more control over the package.
+You'll need to run `php artsan l5-swagger:generate` in order to generate a fresh `api-docs.json`. Additionally, we recommend generating a configuration file with `php artisan l5-swagger:publish-config` so you have more control over the package's configuration.
 
 ## :books: Resources
 - [Swagger Pet Store API docs demo](http://petstore.swagger.io/)
